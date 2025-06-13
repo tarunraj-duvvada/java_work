@@ -8,6 +8,7 @@ public class BANK_A_S {
         double depositAmount = 6000;
         double withdrawal_amount = 3000;
         int transactions = 4;
+        transactions++;
         boolean is_Account_active = true;
         double total_balance_after_deposit = accBalance + depositAmount;
         double total_balance_after_withdrawal = total_balance_after_deposit - withdrawal_amount;
